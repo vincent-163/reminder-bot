@@ -1,0 +1,9 @@
+parsedatetime==2.6
+peewee==3.14.4
+pyaes==1.6.1
+pyasn1==0.4.8
+python-dateutil==2.8.2
+recurrent==0.4.1
+rsa==4.7.2
+six==1.16.0
+Telethon==1.23.0
