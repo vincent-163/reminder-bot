@@ -2,6 +2,19 @@
 
 一个用于提醒事项的 telegram bot. <https://t.me/xaatopnwivbot>
 
+## 配置
+
+需要在同目录的 `config.json` 里这样写：
+```json
+{
+    "api_id": 12345,
+    "api_hash": "",
+    "token": "<token>",
+    "db": "reminders.db"
+}
+```
+其中 `api_id` 和 `api_hash` 需要从 <http://my.telegram.org/> 获得，`token` 为 Bot 使用的 `token`. `db` 指向存储提醒事项数据的数据库文件，填 `reminders.db` 即可。
+
 ## 数据库格式
 
 表 reminders
